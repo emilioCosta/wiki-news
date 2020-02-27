@@ -1,0 +1,44 @@
+.content {
+  display: inline-grid;
+  justify-items: center;
+  margin: 0 15%;
+}
+.content div {
+  margin: 10px;
+}
+.content .title {
+  font-size: 60px;
+  font-family: 'Just Another Hand', cursive;
+}
+.content .body {
+  text-align: justify;
+  font-size: 18px;
+}
+.content a {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content .refresh {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 50px;
+  background-color: #004440;
+  box-shadow: 0 0 8px 0 rgba(117,117,117,0.5);
+  width: 250px;
+  height: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 10px;
+}
+.App {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: inline-flex;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  font-family: 'Nunito';
+  background-image: linear-gradient(#a1c4fd, #eef5f9);
+}
