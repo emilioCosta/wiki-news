@@ -1,5 +1,7 @@
 import React from 'react';
-import api from '../api.js'
+import { Random } from 'react-animated-text';
+import api from '../api.js';
+
 class WikiBody extends React.Component {
   constructor() {
     super();
@@ -17,7 +19,12 @@ class WikiBody extends React.Component {
   render() {
     return <div className="content">
       <div className="title">{this.state.title}</div>
-      <div className="body">{this.removeTags(this.state.body)}</div>
+      <Random
+        className="body"
+        text={this.removeTags(this.state.body)}
+        iterations={1}
+        effect="fadeIn"
+      />
       <a href={this.state.link} className="refresh">{this.state.fowardPage}</a>
       <i onClick={this.sortNewExcert} className="refresh material-icons">refresh</i>
     </div>;
