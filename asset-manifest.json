@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wiki-news/static/css/main.81824659.chunk.css",
+    "main.js": "/wiki-news/static/js/main.56899a98.chunk.js",
+    "main.js.map": "/wiki-news/static/js/main.56899a98.chunk.js.map",
+    "runtime-main.js": "/wiki-news/static/js/runtime-main.fb8b4950.js",
+    "runtime-main.js.map": "/wiki-news/static/js/runtime-main.fb8b4950.js.map",
+    "static/js/2.f9d52916.chunk.js": "/wiki-news/static/js/2.f9d52916.chunk.js",
+    "static/js/2.f9d52916.chunk.js.map": "/wiki-news/static/js/2.f9d52916.chunk.js.map",
+    "index.html": "/wiki-news/index.html",
+    "precache-manifest.76d23adcf8dd46ad5588accc52e99ce6.js": "/wiki-news/precache-manifest.76d23adcf8dd46ad5588accc52e99ce6.js",
+    "service-worker.js": "/wiki-news/service-worker.js",
+    "static/css/main.81824659.chunk.css.map": "/wiki-news/static/css/main.81824659.chunk.css.map",
+    "static/js/2.f9d52916.chunk.js.LICENSE.txt": "/wiki-news/static/js/2.f9d52916.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb8b4950.js",
+    "static/js/2.f9d52916.chunk.js",
+    "static/css/main.81824659.chunk.css",
+    "static/js/main.56899a98.chunk.js"
+  ]
+}
